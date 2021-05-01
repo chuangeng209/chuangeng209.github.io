@@ -1,0 +1,156 @@
+<html>
+    <head>
+        <title> Personal Projects </title>
+    </head>
+    <meta name="frontpage" content ="HTML, CSS">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
+    <style>
+
+        table{
+            font-size:12px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .content {
+          max-width: 960px;
+          margin: auto;
+        }
+        body{
+        color: 	#f8f8ff;
+        text-align: center;
+        background:
+        /* top, transparent black, faked with gradient */ 
+        linear-gradient(
+          rgba(0, 0, 0, 0.7), 
+          rgba(0, 0, 0, 0.7)
+        ),
+        /* bottom, image */
+        url(http://fc02.deviantart.net/fs71/i/2011/274/6/f/ocean__sky__stars__and_you_by_muddymelly-d4bg1ub.png);
+        }
+        .nav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        }
+        .inner-nav {
+        float: right;
+        padding-right: 5px;
+        }
+        .middle {
+            text-align: center;
+        }
+        .inner-ul{
+            padding-top: 5px;
+        }
+
+        li{
+            padding-top: 8px;
+        }
+
+        .footer{
+            position: fixed;
+            left: 0;
+            bottom: 5;
+            width: 100%;
+            background-color: #000;
+            color: #a9f9a9;
+            text-align: center;
+        }
+
+    </style>
+    <nav style="padding: 20px; border-bottom: 3px solid #ccc; margin-bottom: 60px;">
+        <div class = "content">
+            <div class="container">
+                <ul class="nav">
+                    <li class="inner-nav"><th><a href="index.html" class="nes-btn is-error">Home</a></th></li>
+                    <li class="inner-nav"><th><a href="school-projects.html" class="nes-btn is-success" >School Projects</a></th></li>
+                </ul>
+            <h2 style="margin-bottom: 0;">
+                <!--<i class="nes-logo"></i>-->
+                <i class="nes-octocat animate"></i>
+                Personal Projects 
+            </h2>
+            </div>
+        </div>
+    </nav>
+        <body>
+
+            <table  BORDER="5" CELLPADDING="4" CELLSPACING="3"  >
+                    <tr class="middle">
+                        <th COLSPAN="1">Project</th>
+                        <th COLSPAN="1">Description</th>
+                        <th COLSPAN="1">Tech Exposed</th>
+                        <th>Links</th>
+                    </tr>
+
+                    <tr>
+                    <td class="middle">Map application</td> 
+                    <td class="middle">Map application to input reviews on location</td>
+                    <td>
+                        <!--Still In progress - but MVP is up and running !-->
+                        <ul class="inner-ul">
+                            <li>MERN (MongoDB, Express, React, Node) stack </li>
+                            <li>Frontend - React, Leaflet, API from OneMap Singapore</li>
+                            <li>Backend - Express.js, MongoDB, Mongoose</li>
+                            <li>AWS S3 bucket, AWS ECS, Docker, Amazon API Gateway</li>
+                        </ul>  
+                    </td>
+                    <td>
+                        <a href="http://geomap-frontend.s3-website-ap-southeast-1.amazonaws.com/"> Site link</a>
+                        <br><br>
+                        <a href="https://github.com/chuangeng555/geomap"> Github - Front end</a>
+                        <br><br>
+                        <a href="https://github.com/chuangeng555/geo-map-backend"> Github - Back end</a>
+                     </td>
+                    </tr>
+
+                    <tr>
+                        <td class="middle">Bus Timing telegram bot</td>
+                        <td class="middle">To get buses timing of bus stop at least 400m from user</td>
+                        <td>
+                            <ul class="inner-ul">
+                                <li>Flask, Library: python-telegram-bot, API from LTA datamall</li>
+                                <li>Cron-job, Freshping, Heroku</li>
+                            </ul>
+                        </td>
+                        <td><a href="https://t.me/bus_209_bot"> Bot link</a>
+                            <br><br> 
+                        <a href="https://github.com/chuangeng555/busapp209"> Github </a> </td>
+                    </tr>
+
+                    <tr>
+                        <td class="middle">Short Film landing page</td>
+                        <td class="middle">Landing page for a youtube short film channel</td>
+                        <td>
+                            <ul class="inner-ul">
+                                <li>React js</li>
+                                <li>Github pages, Formspree, Namecheap</li>
+                            </ul> 
+                        <td>
+                            <a href="https://ace-productions.me/">Site link</a> 
+                            <br><br>
+                            <a href="https://github.com/chuangeng555/chuangeng555.github.io"> Github </a> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="middle">Safe entry Clone</td>
+                        <td class="middle">Attempt to mimic the national check-in system</td>
+                        <td><ul class="inner-ul">
+                            <li>MEN stack - Mongodb, Express and Node js </li>
+                        </ul></td>
+                        <td><a href="https://secure-mesa-52021.herokuapp.com/registration">Site link</a>
+                            <br><br>
+                            <a href="https://github.com/chuangeng555/safe_entry_clone"> Github </a></td>
+                    </tr>
+
+                    
+            </table>
+
+            </div>
+            <p> 
+            <div class="footer"> Using NES.css 2019</div>
+        </body>
+
+</html>
+
